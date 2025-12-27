@@ -6,12 +6,6 @@ int main(void)
     scanf("%d",&x);
     y=x%10;
     x=x/10;
-    if(y<x)
-    {
-        printf("1");
-    }else
-    {
-        printf("0");
-    }
-    //printf("Reasult=%d",y);
+    printf("%d",y<x);
 }
+
