@@ -2,10 +2,9 @@
 int main()
 {
     int x=11;
-    while(x<19)
+    for(;x<19;)
     {
         x+=2;
-    printf("%d\n",x);
+        printf("%d\n",x);
     }
-
 }
